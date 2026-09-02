@@ -27,6 +27,6 @@ console.log(`User budget: ${UserMoney}, Change left: ${Change}`);
 alert("Product is " + ProductName + "\n" +
     "Total before discount: " + TotalPrice + "\n" +
     "Discount: " + Discount + "%\n" +
-    "Final price with discount: " + FinalPrice + "\n\n" +
+    "Final price with discount: " + FinalPrice + "\n" +
     "Your money: " + UserMoney + "\n" +
     "Your change: " + Change);
