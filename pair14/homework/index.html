@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card" id="card">
+    <h1>Profile Settings</h1>
+    <p id="welcome">Welcome, guest!</p>
+
+    <div class="field">
+        <label for="studentsName">Enter your name:</label>
+        <input type="text" id="studentsName" placeholder="Your name">
+    </div>
+
+    <div class="field">
+        <label for="format">Select theme color:</label>
+        <select id="format">
+            <option value="light">Light Theme</option>
+            <option value="dark">Dark Theme</option>
+        </select>
+    </div>
+
+    <button id="enrollBtn">Save Changes</button>
+    <p id="status"></p>
+    <button id="detailBtn">Show description</button>
+
+    <div id="details" class="hidden">
+        <p>Here you can customize your profile preferences, change your display name, and toggle the interface theme according to your preferences.</p>
+    </div>
+
+    <button id="themeBtn">Toggle Dark Mode</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
